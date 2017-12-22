@@ -16,6 +16,8 @@ body {
   position: absolute;
   left: 0;
   width: 20%;
+  cursor: pointer;
+  z-index: 2;
 }
 
 a {
@@ -23,13 +25,15 @@ a {
   font-family: "Lato";
   font-weight: 300;
   text-align: right;
+  cursor: pointer;
 }
 
 .demo-link {
+  cursor: pointer;
+  z-index: 2;
   position: absolute;
   right: 0px;
   color: white;
-  z-index: 10;
 }
 
 .slack-channel {
@@ -88,6 +92,13 @@ a {
 .heading {
   font-size: 36px;
   font-weight: 700px;
+}
+
+hr {
+  max-width: 60px;
+  margin: 0px;
+  margin-top: -20px;
+  background: #8D90D4;
 }
 
 .paragraph {
